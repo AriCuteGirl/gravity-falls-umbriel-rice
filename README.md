@@ -25,5 +25,7 @@ Monitor layouts, wallpapers, avatars, usernames, autostarted personal apps, and 
 | Super + Period | Noctalia launcher |
 | Super + Q | Close window |
 | Super + O | Overview |
+| Super + F | Toggle fullscreen for the focused window |
+| Super + R | Cycle the focused window's primary size |
 
 Run option 4 in the installer to change an existing keybind.

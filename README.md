@@ -2,6 +2,10 @@
 
 A portable EndeavourOS/Arch rice based on an Umbriel compositor, Noctalia shell, Kitty terminal, Thunar file manager, Catppuccin colours, pink borders, and a menu-driven terminal installer.
 
+## Preview
+
+[Watch the 47-second Gravity Falls rice preview](https://github.com/AriCuteGirl/gravity-falls-umbriel-rice/releases/download/v0.1.0/Gravity-Falls-Rice.mp4)
+
 ## Use
 
 ```bash

@@ -4,7 +4,9 @@ A portable EndeavourOS/Arch rice based on an Umbriel compositor, Noctalia shell,
 
 ## Preview
 
-[Watch the 47-second Gravity Falls rice preview](https://github.com/AriCuteGirl/gravity-falls-umbriel-rice/releases/download/v0.1.0/Gravity-Falls-Rice.mp4)
+![Animated preview of the Gravity Falls Umbriel rice](assets/preview.gif)
+
+[Watch or download the full 47-second Gravity Falls rice preview](https://github.com/AriCuteGirl/gravity-falls-umbriel-rice/releases/download/v0.1.0/Gravity.Falls.Rice.mp4)
 
 ## Use
 

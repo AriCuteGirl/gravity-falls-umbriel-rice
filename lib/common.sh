@@ -16,7 +16,7 @@ enable_multilib(){
 install_prerequisites(){
   need_arch; enable_multilib
   note 'Installing core apps, Steam, and the archive integration.'
-  sudo pacman -S --needed --noconfirm base-devel git kitty fish fastfetch thunar thunar-archive-plugin file-roller steam xdg-utils polkit-kde-agent qt6-wayland pipewire wireplumber grim slurp wl-clipboard
+  sudo pacman -S --needed --noconfirm base-devel git kitty fish fastfetch starship thunar thunar-archive-plugin file-roller steam xdg-utils polkit-kde-agent qt6-wayland pipewire wireplumber grim slurp wl-clipboard ttf-jetbrains-mono-nerd ttf-pixelify-sans-variable noto-fonts noto-fonts-cjk
 }
 
 install_desktop(){
@@ -40,6 +40,9 @@ apply_rice(){
   install -Dm644 "$ROOT/assets/noctalia/palettes/Ari.json" "$HOME/.config/noctalia/palettes/Ari.json"
   install -Dm644 "$ROOT/assets/kitty/kitty.conf" "$HOME/.config/kitty/kitty.conf"
   install -Dm644 "$ROOT/assets/fish/config.fish" "$HOME/.config/fish/config.fish"
+  install -Dm644 "$ROOT/assets/fastfetch/hug.png" "$HOME/Pictures/Gravity Falls Umbriel Rice/hug.png"
+  install -Dm644 "$ROOT/assets/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc"
+  sed -i "s|@HOME@|$HOME|g" "$HOME/.config/fastfetch/config.jsonc"
   note 'Rice installed. Log out, choose Umbriel at the display manager, then log back in.'
 }
 

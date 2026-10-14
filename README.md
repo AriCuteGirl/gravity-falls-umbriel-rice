@@ -12,6 +12,8 @@ cd gravity-falls-umbriel-rice
 
 The installer has four stages: prerequisites (including optional multilib/Steam), Umbriel + Noctalia, rice files, and a keybind editor. Existing configs are backed up under `~/.local/state/umbriel-rice-backups` before changes.
 
+It installs the JetBrains Mono Nerd, Pixelify Sans, and Noto font packages. The Gravity Falls Fastfetch image is placed in `~/Pictures/Gravity Falls Umbriel Rice/hug.png`.
+
 ## Safety and portability
 
 Monitor layouts, wallpapers, avatars, usernames, autostarted personal apps, and private paths are intentionally excluded. Add your own monitor entries after installation with `umbriel outputs`.

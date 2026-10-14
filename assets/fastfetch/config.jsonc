@@ -1,0 +1,11 @@
+{
+  "logo": {
+    "type": "kitty-icat",
+    "source": "@HOME@/Pictures/Gravity Falls Umbriel Rice/hug.png",
+    "width": 28,
+    "height": 18,
+    "padding": { "top": 1, "left": 2, "right": 3 }
+  },
+  "display": { "separator": "  ", "color": { "output": "#F3E8F0" } },
+  "modules": ["break", "os", "kernel", "uptime", "packages", "shell", "wm", "terminal", "cpu", "gpu", "memory", "swap", "disk", "localip"]
+}

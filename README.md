@@ -1,12 +1,12 @@
-# Umbriel Catppuccin Rice
+# Gravity Falls Umbriel Rice
 
 A portable EndeavourOS/Arch rice based on an Umbriel compositor, Noctalia shell, Kitty terminal, Thunar file manager, Catppuccin colours, pink borders, and a menu-driven terminal installer.
 
 ## Use
 
 ```bash
-git clone https://github.com/YOUR-USER/umbriel-catppuccin-rice.git
-cd umbriel-catppuccin-rice
+git clone https://github.com/AriCuteGirl/gravity-falls-umbriel-rice.git
+cd gravity-falls-umbriel-rice
 ./install.sh
 ```
 

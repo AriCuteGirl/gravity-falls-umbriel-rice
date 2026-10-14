@@ -1,0 +1,17 @@
+[include]
+files = ["rice.toml"]
+
+[input.keyboard]
+layout = "us"
+
+[keybinds]
+"Mod+Return" = { action = "spawn:kitty", repeat = false }
+"Mod+E" = { action = "spawn:thunar", repeat = false }
+"Mod+Period" = { action = "spawn:noctalia msg panel-toggle launcher", repeat = false }
+"Mod+Q" = { action = "window-close", repeat = false }
+"Mod+O" = { action = "overview-toggle", repeat = false }
+"Mod+Shift+S" = { action = "spawn:grim -g \"$(slurp)\" - | wl-copy", repeat = false }
+"Ctrl+Alt+Delete" = { action = "spawn:noctalia msg panel-toggle session", repeat = false }
+
+[general]
+autostart = ["noctalia", "/usr/lib/polkit-kde-authentication-agent-1"]

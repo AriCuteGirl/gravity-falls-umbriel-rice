@@ -1,0 +1,14 @@
+[layout]
+border_width = 3
+outer_border_width = 2
+gaps = 8
+
+[colors.border]
+focused = "#E16F7C"
+unfocused = "#4B3549"
+
+[effects]
+# Add bundled Umbriel effects here if you want them.
+
+[cursor]
+size = 32

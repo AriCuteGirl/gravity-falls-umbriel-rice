@@ -1,0 +1,10 @@
+{
+  "name": "Ari",
+  "colors": {
+    "primary": "#f5c2e7",
+    "secondary": "#cba6f7",
+    "surface": "#1e1e2e",
+    "surfaceVariant": "#313244",
+    "onSurface": "#cdd6f4"
+  }
+}

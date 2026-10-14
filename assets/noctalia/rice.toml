@@ -1,0 +1,10 @@
+[theme]
+mode = "dark"
+custom_palette = "Ari"
+
+[bar.default]
+background_opacity = 0.45
+radius = 8
+shadow = false
+border = "#E16F7C"
+border_width = 2.0
